@@ -1,6 +1,6 @@
 # 01 - Pantallas visuales MVP de Arcade Vault
 
-**Estado:** Aprobado
+**Estado:** Implementado
 **Depende de:** —
 **Fecha:** 2026-08-22
 
@@ -56,17 +56,17 @@
 
 ## Criterios de aceptación
 
-- [ ] `/` muestra la Biblioteca con hero, buscador funcional (filtra por texto) y chips de categoría funcionales.
-- [ ] Cada tarjeta de juego tiene efecto tilt al mover el mouse y navega a `/juegos/[id]` al hacer click (o en el botón "Jugar").
-- [ ] `/juegos/[id]` muestra la info correcta del juego según el `id` y un leaderboard de 10 filas con estilos oro/plata/bronce en el top 3.
-- [ ] El botón "Jugar Ahora" navega a `/juegos/[id]/jugar`; "Volver al Vault" navega a `/`.
-- [ ] `/juegos/[id]/jugar` muestra el HUD con un score que sube automáticamente, y los botones de pausa/fin/salir funcionan.
-- [ ] Al terminar la partida se puede guardar el score con iniciales editables, y queda persistido en `localStorage` (`av_scores`).
-- [ ] `/auth` permite alternar entre tabs "Iniciar sesión"/"Crear cuenta", loguearse con cualquier texto (mock) o como invitado, y redirige a `/`.
-- [ ] Tras loguearse, el Nav muestra el nombre del usuario y permite cerrar sesión.
-- [ ] `/salon-de-la-fama` permite cambiar entre juegos (tabs), muestra podio + tabla, y una fila especial si hay usuario logueado.
-- [ ] El panel de navegación mobile (hamburguesa) abre y cierra correctamente en pantallas menores a 840px.
-- [ ] Todas las rutas usan las clases ya existentes de `app/globals.css`, visualmente equivalentes al mockup `Arcade Vault.html`.
+- [*] `/` muestra la Biblioteca con hero, buscador funcional (filtra por texto) y chips de categoría funcionales.
+- [*] Cada tarjeta de juego tiene efecto tilt al mover el mouse y navega a `/juegos/[id]` al hacer click (o en el botón "Jugar").
+- [*] `/juegos/[id]` muestra la info correcta del juego según el `id` y un leaderboard de 10 filas con estilos oro/plata/bronce en el top 3.
+- [*] El botón "Jugar Ahora" navega a `/juegos/[id]/jugar`; "Volver al Vault" navega a `/`.
+- [*] `/juegos/[id]/jugar` muestra el HUD con un score que sube automáticamente, y los botones de pausa/fin/salir funcionan.
+- [*] Al terminar la partida se puede guardar el score con iniciales editables, y queda persistido en `localStorage` (`av_scores`).
+- [*] `/auth` permite alternar entre tabs "Iniciar sesión"/"Crear cuenta", loguearse con cualquier texto (mock) o como invitado, y redirige a `/`.
+- [*] Tras loguearse, el Nav muestra el nombre del usuario y permite cerrar sesión.
+- [*] `/salon-de-la-fama` permite cambiar entre juegos (tabs), muestra podio + tabla, y una fila especial si hay usuario logueado.
+- [*] El panel de navegación mobile (hamburguesa) abre y cierra correctamente en pantallas menores a 840px.
+- [*] Todas las rutas usan las clases ya existentes de `app/globals.css`, visualmente equivalentes al mockup `Arcade Vault.html`.
 
 ## Decisiones tomadas y descartadas
 
