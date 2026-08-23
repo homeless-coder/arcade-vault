@@ -1,6 +1,6 @@
 # 02 - Pantalla Home (landing)
 
-**Estado:** Aprobado
+**Estado:** Implementado
 **Depende de:** SPEC 01
 **Fecha:** 2026-08-22
 
@@ -38,15 +38,15 @@ No se introduce ningún modelo de datos nuevo. La sección "JUEGOS DISPONIBLES A
 
 ## Criterios de aceptación
 
-- [ ] `/` muestra la pantalla Home completa: hero con siluetas flotantes y CTAs, sección de features, preview de juegos reales (de `lib/data.ts`), stats, actividad en vivo, precios + FAQ, y CTA final.
-- [ ] Las animaciones de "reveal" al hacer scroll funcionan en las secciones del Home, igual que en el mockup.
-- [ ] El CTA "EXPLORAR JUEGOS" del hero y el botón "VER TODOS LOS JUEGOS" navegan a `/biblioteca`; el CTA "CREAR CUENTA" navega a `/auth`; "VER SALÓN" navega a `/salon-de-la-fama`; el CTA final navega a `/biblioteca`.
-- [ ] Cada tarjeta de la sección "JUEGOS DISPONIBLES AHORA" navega a `/juegos/[id]` del juego correspondiente.
-- [ ] `/biblioteca` conserva exactamente el comportamiento actual (buscador, chips de categoría, grid, estado vacío).
-- [ ] El Nav muestra "Inicio" y "Biblioteca" como links separados; "Inicio" se resalta como activo solo en `/`, y "Biblioteca" se resalta como activo en `/biblioteca` y en `/juegos/*`.
-- [ ] El panel mobile del Nav refleja los mismos dos links y el mismo resaltado.
-- [ ] Los botones "Volver al Vault" (detalle de juego), el botón de salida del Reproductor, el botón inferior del Salón de la Fama, y las redirecciones tras login/registro/invitado en `/auth`, navegan todos a `/biblioteca` (ya no a `/`).
-- [ ] El diseño visual del Home es consistente en pixel/neón con el resto del sitio (mismas fuentes, paleta y componentes base ya definidos en `app/globals.css`).
+- [*] `/` muestra la pantalla Home completa: hero con siluetas flotantes y CTAs, sección de features, preview de juegos reales (de `lib/data.ts`), stats, actividad en vivo, precios + FAQ, y CTA final.
+- [*] Las animaciones de "reveal" al hacer scroll funcionan en las secciones del Home, igual que en el mockup.
+- [*] El CTA "EXPLORAR JUEGOS" del hero y el botón "VER TODOS LOS JUEGOS" navegan a `/biblioteca`; el CTA "CREAR CUENTA" navega a `/auth`; "VER SALÓN" navega a `/salon-de-la-fama`; el CTA final navega a `/biblioteca`.
+- [*] Cada tarjeta de la sección "JUEGOS DISPONIBLES AHORA" navega a `/juegos/[id]` del juego correspondiente.
+- [*] `/biblioteca` conserva exactamente el comportamiento actual (buscador, chips de categoría, grid, estado vacío).
+- [*] El Nav muestra "Inicio" y "Biblioteca" como links separados; "Inicio" se resalta como activo solo en `/`, y "Biblioteca" se resalta como activo en `/biblioteca` y en `/juegos/*`.
+- [*] El panel mobile del Nav refleja los mismos dos links y el mismo resaltado.
+- [*] Los botones "Volver al Vault" (detalle de juego), el botón de salida del Reproductor, el botón inferior del Salón de la Fama, y las redirecciones tras login/registro/invitado en `/auth`, navegan todos a `/biblioteca` (ya no a `/`).
+- [*] El diseño visual del Home es consistente en pixel/neón con el resto del sitio (mismas fuentes, paleta y componentes base ya definidos en `app/globals.css`).
 
 ## Decisiones tomadas y descartadas
 
